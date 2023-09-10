@@ -1,0 +1,13 @@
+{
+    "\UF729"  = "moveToBeginningOfLine:"; // home
+    "\UF72B"  = "moveToEndOfLine:"; // end
+    
+    "@\UF702"  = "moveWordBackward:";                            /* Cmd  + LeftArrow */
+    "@\UF703"  = "moveWordForward:";                             /* Cmd  + RightArrow */
+
+    "@\U007F"  = "deleteWordBackward:";                          /* Cmd  + Backspace */
+    "@\UF728"  = "deleteWordForward:";                           /* Cmd  + Delete */
+
+    "@$\UF702" = "moveWordBackwardAndModifySelection:";          /* Shift + Cmd  + Leftarrow */
+    "@$\UF703" = "moveWordForwardAndModifySelection:";           /* Shift + Cmd  + Rightarrow */
+}
